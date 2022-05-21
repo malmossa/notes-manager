@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-
 import { Box, TextField, Button } from "@mui/material";
 
 function AddNote() {
