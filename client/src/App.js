@@ -7,11 +7,13 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
 import AddNote from "./components/notes/AddNote";
+import Header from "./components/shared/header";
 import Notes from "./components/notes/Notes";
 
 function App() {
   return (
     <Fragment>
+      <Header />
       <Container>
         <AddNote />
         <Notes />
