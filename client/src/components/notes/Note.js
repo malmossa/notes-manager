@@ -6,7 +6,7 @@ import "./style.css";
 function Note() {
   return (
     <Fragment>
-      <Paper className="padding" sx={{ position: "relative" }}>
+      <Paper className="padding">
         <Typography variant="body2">
           body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
           blanditiis tenetur unde suscipit, quam beatae rerum inventore
